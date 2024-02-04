@@ -73,6 +73,9 @@ ZSH_THEME="robbyrussell"
 plugins=(aliases git fzf tmux)
 #apt install git fzf tmux zsh
 
+DISABLE_FZF_KEY_BINDINGS="true"
+source $HOME/.fzf-key-bindings.zsh
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
