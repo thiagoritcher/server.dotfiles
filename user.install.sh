@@ -9,3 +9,4 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ln -s $PWD/dotzshrc $HOME/.zshrc
 ln -s $PWD/dotvimrc $HOME/.vimrc
 ln -s $PWD/dottmux.conf $HOME/.tmux.conf
+vim -c "PlugInstall"
