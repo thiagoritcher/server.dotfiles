@@ -17,6 +17,8 @@ Run user.install.sh as user
     
     ./user.install.sh
 
+Run :PlugInstall
+
 ## Install in a single script
 
 All in a single script
@@ -25,4 +27,5 @@ All in a single script
     cd server.dotfiles
     sudo ./root.install.sh
     ./user.install.sh
+    vim -c "PlugInstall"
 
